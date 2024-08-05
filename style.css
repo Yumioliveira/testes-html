@@ -1,0 +1,213 @@
+@charset "UTF-8";
+
+
+/*celulares*/
+@media screen and (max-width: 600px) {
+
+    * {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    html {
+        height: 100vh;
+    }
+
+    body {
+        background-image: url(imagens/back-phone.jpg);
+        background-position: center center;
+        background-size: cover;
+
+    }
+
+    main {
+        background-color: rgba(255, 255, 255, 0.51);
+        padding: 10px;
+        margin: 10px;
+        border-radius: 20px;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    img#celular {
+        margin: auto;
+        display: block;
+    }
+
+
+    img#celular {
+        display: block;
+    }
+    img#tablet {
+        display: none;
+    }
+    img#desktop {
+        display: none;
+    }
+    img#tv {
+        display: none;
+    }
+    img#impresora {
+        display: none;
+    }
+}
+/*------------------------------------------------------------------*/
+
+/*tablet*/
+@media screen and (min-width: 600px) and (max-width: 992px) {
+
+    * {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    html {
+        height: 100vh;
+    }
+
+
+    body {
+        background-image: url(imagens/back-tablet.jpg);
+        background-position: top left;
+        background-size: cover;
+    }
+
+    main {
+        background-color: rgba(255, 255, 255, 0.51);
+        margin: 10px;
+        padding: 10px;
+        border-radius: 20px;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    img#tablet {
+        margin: auto;
+        display: block;
+    }
+
+    img#celular {
+        display: none;
+    }
+    img#tablet {
+        display: block;
+    }
+    img#desktop {
+        display: none;
+    }
+    img#tv {
+        display: none;
+    }
+    img#impresora {
+        display: none;
+    }
+}
+
+/*----------------------------------------------------------------*/
+
+@media screen and (min-width: 992px) and (max-width: 1280px){
+
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    html {
+        height: 100vh;
+    }
+
+    body {
+        background-image: url(imagens/back-pc.jpg);
+        background-position: center center;
+        background-size: cover;
+    }
+
+    main {
+        background-color: rgba(255, 255, 255, 0.51);
+        margin: 10px;
+        padding: 10px;
+        border-radius: 20px;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    img#desktop {
+        margin: auto;
+        display: block;
+    }
+
+    img#celular {
+        display: none;
+    }
+    img#tablet {
+        display: none;
+    }
+    img#desktop {
+        display: block;
+    }
+    img#tv {
+        display: none;
+    }
+    img#impresora {
+        display: none;
+    }
+}
+
+/*------------------------------------------------------------------------*/
+
+@media screen and (min-width: 1280px) {
+
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    html {
+        height: 100vh;
+    }
+
+    body {
+        background-image: url(imagens/back-tv.jpg);
+        background-position: center center;
+        background-size: cover;
+    }
+
+    main {
+        background-color: rgba(255, 255, 255, 0.51);
+        margin: 10px;
+        padding: 10px;
+        border-radius: 20px;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    img#tv {
+        margin: auto;
+        display: block;
+    }
+
+    img#celular {
+        display: none;
+    }
+    img#tablet {
+        display: none;
+    }
+    img#desktop {
+        display: none;
+    }
+    img#tv {
+        display: block;
+    }
+    img#impresora {
+        display: none;
+    }
+
+}
